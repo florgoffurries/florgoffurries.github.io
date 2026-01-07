@@ -1,0 +1,311 @@
+/* ==========================================================================
+   Flooftheme skin
+   ========================================================================== */
+
+/* Colors */
+$background-color: #f3f6f6 !default;
+$text-color: #40514e !default;
+$muted-text-color: #40514e !default;
+$primary-color: #006747 !default;
+$border-color: mix(#fff, #40514e, 75%) !default;
+$footer-background-color: #006747 !default;
+$link-color: #006747 !default;
+
+/* Masthead / navbar colors */
+$masthead-background-color: #006747 !default;
+$masthead-background: $masthead-background-color !default;
+$masthead-link-color: #ffffff !default;
+$masthead-link-color-hover: rgba(#ffffff, 0.95) !default;
+
+$navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
+
+/* ==========================================================================
+   Masthead / navbar overrides
+   ========================================================================== */
+
+/* Apply masthead background and base link color */
+.masthead,
+.site-header {
+  background-color: $masthead-background-color;
+  color: $masthead-link-color;
+}
+
+/* Ensure inner wrap is transparent so the masthead color shows through */
+.site-header .masthead__inner-wrap,
+.masthead .masthead__inner-wrap {
+  background: transparent;
+  background-image: none;
+  box-shadow: none;
+  border-radius: 0;
+  color: inherit;
+}
+
+/* Make direct children and common nav descendants transparent so the masthead color is visible */
+.masthead__inner-wrap > *,
+.site-header .masthead__inner-wrap > *,
+.masthead__menu,
+#site-nav,
+#site-nav .greedy-nav,
+#site-nav .visible-links,
+#site-nav .hidden-links,
+.site-nav__container,
+.top-area {
+  background: transparent;
+  background-image: none;
+  box-shadow: none;
+  border-radius: 0;
+  color: inherit;
+}
+
+/* If a logo image has a white background you must replace it with a transparent one.
+   This only clears CSS-applied backgrounds. */
+.masthead__brand img,
+.masthead__brand .logo {
+  background: transparent;
+}
+
+/* Keep site nav container transparent */
+#site-nav {
+  background: transparent;
+}
+
+/* ==========================================================================
+   Animated underline for masthead / nav links
+   ========================================================================== */
+
+/* Base link styles - allow pseudo-element underline without changing layout */
+#site-nav a,
+.masthead__menu-item > a,
+#site-nav .visible-links a,
+#site-nav .hidden-links a,
+.greedy-nav a,
+.site-title {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  overflow: visible;
+  text-decoration: none;
+  color: $masthead-link-color;
+}
+
+/* underline bar */
+#site-nav a::after,
+.masthead__menu-item > a::after,
+#site-nav .visible-links a::after,
+#site-nav .hidden-links a::after,
+.greedy-nav a::after,
+.site-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 6px;              /* tweak to align under the nav text */
+  height: 2px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 180ms ease;
+  pointer-events: none;
+}
+
+/* reveal underline on hover / focus */
+#site-nav a:hover::after,
+#site-nav a:focus-visible::after,
+.masthead__menu-item > a:hover::after,
+.masthead__menu-item > a:focus-visible::after,
+#site-nav .visible-links a:hover::after,
+#site-nav .visible-links a:focus-visible::after,
+#site-nav .hidden-links a:hover::after,
+#site-nav .hidden-links a:focus-visible::after,
+.greedy-nav a:hover::after,
+.greedy-nav a:focus-visible::after,
+.site-title:hover::after,
+.site-title:focus-visible::after {
+  transform: scaleX(1);
+}
+
+/* color change on hover/focus */
+#site-nav a:hover,
+#site-nav a:focus-visible,
+.masthead__menu-item > a:hover,
+.masthead__menu-item > a:focus-visible {
+  color: $masthead-link-color-hover;
+}
+
+/* reduced-motion preference */
+@media (prefers-reduced-motion: reduce) {
+  #site-nav a::after,
+  .masthead__menu-item > a::after {
+    transition: none;
+    transform: none; /* show underline statically */
+  }
+}
+
+/* ==========================================================================
+   Search icon & hamburger (navicon) visibility + behavior
+   - Draws navicon (3 bars) if markup uses .navicon or is missing inner bars.
+   - Preserves X animation when the toggle is in an "open" state (.active, .is-active, aria-expanded="true").
+   ========================================================================== */
+
+/* Ensure the toggle button in the masthead is visible (override .hidden locally) */
+.masthead .greedy-nav__toggle,
+.masthead .search__toggle {
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  background: transparent !important;
+  border: none !important;
+  color: $masthead-link-color !important;
+  padding: 0.25rem !important;
+  overflow: visible !important;
+}
+
+/* Font Awesome <i> or inline SVG inside the button */
+.masthead .search__toggle i,
+.masthead .search__toggle .fas,
+.masthead .search__toggle svg,
+.masthead .search__toggle svg * {
+  color: $masthead-link-color !important;
+  fill: $masthead-link-color !important;
+  stroke: $masthead-link-color !important;
+  text-shadow: none !important;
+}
+
+/* Make sure pseudo-elements used by font icons inherit color */
+.masthead .search__toggle i::before,
+.masthead .search__toggle .fas::before {
+  color: inherit !important;
+}
+
+/* NAVICON: draw three bars using .navicon and its ::before/::after (works when .navicon is empty div) */
+.masthead .navicon {
+  width: 22px;
+  height: 2px;
+  background-color: $masthead-link-color;
+  position: relative;
+  border-radius: 2px;
+  transition: background-color 160ms ease, transform 240ms ease, opacity 240ms ease;
+}
+
+/* top and bottom bars */
+.masthead .navicon::before,
+.masthead .navicon::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $masthead-link-color;
+  border-radius: 2px;
+  transition: transform 240ms ease, top 240ms ease, opacity 240ms ease;
+}
+
+/* position the extra bars */
+.masthead .navicon::before { top: -8px; }
+.masthead .navicon::after  { top: 8px; }
+
+/* When menu is toggled open - cover common toggles: aria-expanded, .active, .is-active */
+.masthead .greedy-nav__toggle[aria-expanded="true"] .navicon,
+.masthead .greedy-nav__toggle.active .navicon,
+.masthead .greedy-nav__toggle.is-active .navicon {
+  background-color: transparent;
+  opacity: 0; /* hide middle bar if original script expects that */
+}
+
+/* top -> rotate to form X */
+.masthead .greedy-nav__toggle[aria-expanded="true"] .navicon::before,
+.masthead .greedy-nav__toggle.active .navicon::before,
+.masthead .greedy-nav__toggle.is-active .navicon::before {
+  transform: translateY(8px) rotate(45deg);
+  top: 0;
+  background-color: $masthead-link-color;
+  opacity: 1;
+}
+
+/* bottom -> rotate opposite */
+.masthead .greedy-nav__toggle[aria-expanded="true"] .navicon::after,
+.masthead .greedy-nav__toggle.active .navicon::after,
+.masthead .greedy-nav__toggle.is-active .navicon::after {
+  transform: translateY(-8px) rotate(-45deg);
+  top: 0;
+  background-color: $masthead-link-color;
+  opacity: 1;
+}
+
+/* If the theme uses internal divs for bars, color those too */
+.masthead .greedy-nav__toggle .navicon div,
+.masthead .greedy-nav__toggle .navicon div::before,
+.masthead .greedy-nav__toggle .navicon div::after {
+  background-color: $masthead-link-color !important;
+}
+
+/* Hover/focus color for icon buttons */
+.masthead .greedy-nav__toggle:hover,
+.masthead .greedy-nav__toggle:focus-visible,
+.masthead .search__toggle:hover,
+.masthead .search__toggle:focus-visible {
+  color: $masthead-link-color-hover !important;
+}
+.masthead .greedy-nav__toggle:hover .navicon,
+.masthead .greedy-nav__toggle:focus-visible .navicon,
+.masthead .search__toggle:hover i,
+.masthead .search__toggle:focus-visible i {
+  background-color: $masthead-link-color-hover !important;
+  fill: $masthead-link-color-hover !important;
+  stroke: $masthead-link-color-hover !important;
+}
+
+/* If icons are clipped by ancestor overflow, allow visible overflow in masthead only */
+.masthead,
+.masthead * {
+  overflow: visible !important;
+}
+
+/* Fix: make middle navicon bar change color on hover/focus like top/bottom */
+.masthead .greedy-nav__toggle:hover .navicon,
+.masthead .greedy-nav__toggle:focus-visible .navicon {
+  background-color: $masthead-link-color-hover !important;
+  opacity: 1 !important;
+}
+.masthead .greedy-nav__toggle:hover .navicon::before,
+.masthead .greedy-nav__toggle:hover .navicon::after,
+.masthead .greedy-nav__toggle:focus-visible .navicon::before,
+.masthead .greedy-nav__toggle:focus-visible .navicon::after {
+  background-color: $masthead-link-color-hover !important;
+}
+
+/* Ensure hidden-links become visible when the toggle is opened.
+   The greedy-nav script normally toggles aria-expanded or classes; cover common patterns. */
+.masthead #site-nav .hidden-links {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: calc(100% + 0.5rem);
+  background: $masthead-background-color;
+  z-index: 999;
+  margin: 0;
+  padding: 0.25rem 0.5rem;
+  list-style: none;
+  border-radius: 4px;
+}
+
+/* Show when toggle is open/active */
+.masthead .greedy-nav__toggle[aria-expanded="true"] ~ .hidden-links,
+.masthead .greedy-nav__toggle.active ~ .hidden-links,
+.masthead .greedy-nav__toggle.is-active ~ .hidden-links {
+  display: block !important;
+}
+
+/* If the script toggles a different class/attribute to open the menu, add it here. */
+
+/* ==========================================================================
+   Footer overrides (kept from your original skin)
+   ========================================================================== */
+.page__footer {
+  color: #fff !important; // override
+}
+
+.page__footer-follow .social-icons i,
+.page__footer-follow .social-icons .svg-inline--fa {
+  color: inherit;
+}

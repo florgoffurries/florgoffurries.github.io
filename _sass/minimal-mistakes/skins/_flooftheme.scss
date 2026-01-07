@@ -10,82 +10,10 @@ $primary-color: #006747 !default;
 $border-color: mix(#fff, #40514e, 75%) !default;
 $footer-background-color: #006747 !default;
 $link-color: #006747 !default;
-
-/* Masthead / navbar colors */
-$masthead-background-color: #006747 !default;
-$masthead-background: $masthead-background-color !default;
-$masthead-link-color: #ffffff !default;
-$masthead-link-color-hover: rgba(#ffffff, 0.95) !default;
-
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: $text-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
-/* ==========================================================================
-   Masthead / navbar overrides
-   ========================================================================== */
-
-/* Apply the masthead background and base link color */
-
-.masthead{
-  background-color: $masthead-background-color;
-  color: $masthead-link-color;
-}
-
-/* Target the direct child (the white panel you saw) and common nav descendants
-   and make them transparent so the masthead color is visible. */
-
-#site-nav{
-  background: transparent;
-}
-
-/* ==========================================================================
-   Animated underline for masthead / nav links
-   ========================================================================== */
-
-/* Base link styles for masthead/nav - keep inline layout but allow ::after positioning */
-#site-nav a{
-  position: relative;
-}
-
-/* underline bar */
-#site-nav a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 100%;
-  bottom: 1px;              /* tweak if needed to sit nicely under the text */
-  height: 3px;
-  background: currentColor;
-  transform: scaleX(0);
-  transform-origin: center;
-  transition: transform 50ms ease;
-  pointer-events: none;
-}
-
-/* reveal underline on hover and keyboard focus */
-#site-nav a:hover::after,
-#site-nav a:focus-visible::after,
-.site-title:focus-visible::after {
-  transform: scaleX(1);
-}
-
-/* reduced-motion users: remove animation and show underline statically */
-@media (prefers-reduced-motion: reduce) {
-  #site-nav a::after,
-  .masthead__menu-item > a::after {
-    transition: none;
-    transform: none;
-  }
-}
-
-/* Force search to be visible on dark masthead */
-.search__toggle{
-  color: $masthead-link-color !important;
-}
-
-
-/* ==========================================================================
-   Footer overrides (kept from your original skin)
-   ========================================================================== */
 .page__footer {
   color: #fff !important; // override
 }
@@ -94,4 +22,8 @@ $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 .page__footer-follow .social-icons .svg-inline--fa {
   color: inherit;
 }
+
+
+
+
 
