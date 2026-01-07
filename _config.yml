@@ -23,7 +23,6 @@ search: true
 
 favicon: /favicon.ico
 logo: "/assets/images/logo.png"
-masthead_title: ""
 
 # Build settings
 markdown: kramdown
@@ -59,34 +58,38 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Stoney D. Bull"
+  avatar : "/assets/images/bio-photo.png"
+  bio    : "Welcome to the official website/newsletter for the Florida Organization of Furries (FLOOF), a student organization at USF!"
   links:
-    - label: "Website"
+    - label: "Website (You are here)"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://florgoffurries.github.io/"
+    - label: "Bullsconnect"
+      icon: "fa-solid fa-cow"
+      url: "https://bullsconnect.usf.edu/floof/home/"
+    - label: "Linktree"
+      icon: "fa-brands fa-linktree"
+      url: "https://linktr.ee/usffloof"
+
+    - label: "Discord"
+      icon: "fa-brands fa-discord"
+      url: "https://discord.gg/PEhzuQG5Yv"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: "Website (You are here)"
+      icon: "fas fa-fw fa-link"
+      url: "https://https://florgoffurries.github.io/"
+    - label: "Linktree"
+      icon: "fa-brands fa-linktree"
+      url: "https://linktr.ee/usffloof"
+    - label: "Bullsconnect"
+      icon: "fa-solid fa-cow"
+      url: "https://bullsconnect.usf.edu/floof/home/"
+    - label: "Discord"
+      icon: "fa-brands fa-discord"
+      url: "https://discord.gg/PEhzuQG5Yv"
 
 defaults:
   # _posts
