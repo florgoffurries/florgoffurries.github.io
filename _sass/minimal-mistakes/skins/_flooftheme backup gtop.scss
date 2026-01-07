@@ -1,0 +1,50 @@
+/* ==========================================================================
+   Flooftheme skin
+   ========================================================================== */
+
+/* Colors */
+$background-color: #f3f6f6 !default;
+$text-color: #40514e !default;
+$muted-text-color: #40514e !default;
+$primary-color: #006747 !default;
+$border-color: mix(#fff, #40514e, 75%) !default;
+$footer-background-color: #006747 !default;
+$link-color: #006747 !default;
+
+/* Masthead / navbar colors */
+$masthead-background-color: #006747 !default;
+$masthead-background: $masthead-background-color !default;
+$masthead-link-color: #ffffff !default;
+$masthead-link-color-hover: rgba(#ffffff, 0.95) !default;
+
+$navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
+
+/* ==========================================================================
+   Masthead / navbar overrides
+   ========================================================================== */
+
+/* Apply the masthead background and base link color */
+
+.masthead{
+  background-color: $masthead-background-color;
+  color: $masthead-link-color;
+}
+
+/* Target common direct children and nav descendants that often have their own white background.
+   Make them transparent (so the masthead shows through) and remove box-shadow/borders. */
+
+#site-nav {
+  background: transparent;
+}
+
+/* ==========================================================================
+   Footer overrides (kept from your original skin)
+   ========================================================================== */
+.page__footer {
+  color: #fff !important; // override
+}
+
+.page__footer-follow .social-icons i,
+.page__footer-follow .social-icons .svg-inline--fa {
+  color: inherit;
+}
