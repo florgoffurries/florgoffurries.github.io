@@ -1,9 +1,7 @@
 main:
-  - title: "Posts"
+  - title: "Newsletter and Announcements"
     url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  - title: "History"
+    url: /history/
   - title: "About"
     url: /about/

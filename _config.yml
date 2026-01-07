@@ -78,9 +78,6 @@ author:
 
 footer:
   links:
-    - label: "Website (You are here)"
-      icon: "fas fa-fw fa-link"
-      url: "https://https://florgoffurries.github.io/"
     - label: "Linktree"
       icon: "fa-brands fa-linktree"
       url: "https://linktr.ee/usffloof"
@@ -98,11 +95,12 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      related: false
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
