@@ -17,6 +17,6 @@ Since then, the club has grown a lot, totalling 215 members on Bullsconnect and 
 
 This website is made and maintained by Ray/Helicoprime, FLOOF's Historian for the 2026 term.
 
-This website is hosted on Github Pages, and utilizes the Jekyll template "Minimal Mistakes".
+This website is hosted on Github Pages, and utilizes the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
 
 Favicon, Logo, and Profile Picture by Vincent, FLOOF's Ad Manager for the 2026 term.

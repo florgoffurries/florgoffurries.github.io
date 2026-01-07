@@ -1,27 +1,15 @@
-# Minimal Mistakes remote theme starter
+# FLOOF Website/Newsletter
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+> FLOOF is for USF Students and Alumni who are interested in Furries, Furry Culture, or are interested in learning more about Furries. By encouraging self-expression and creativity, we are creating a space for art, culture, and friendship to thrive for students with a common interest in Furries. Additionally, we aim to foster a community that is not only supportive of Furries but also supportive of the LGBTQ+ community at USF and beyond.
 
-Contains basic configuration to get you a site with:
+<cite>— Taylor, Founder</cite>
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+This is a website for FLOOF, a USF student organization catering to furries.
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+#### Acknowledgements
 
----
+This website is made and maintained by Ray/Helicoprime, FLOOF's Historian for the 2026 term.
 
-## Troubleshooting
+This website is hosted on Github Pages, and utilizes the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
-
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+Favicon, Logo, and Profile Picture by Vincent, FLOOF's Ad Manager for the 2026 term.
