@@ -3,6 +3,20 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Updated January 7th, 2026
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+> FLOOF is for USF Students and Alumni who are interested in Furries, Furry Culture, or are interested in learning more about Furries. By encouraging self-expression and creativity, we are creating a space for art, culture, and friendship to thrive for students with a common interest in Furries. Additionally, we aim to foster a community that is not only supportive of Furries but also supportive of the LGBTQ+ community at USF and beyond.
+
+<cite>— Taylor, Founder</cite>
+
+FLOOF is a USF student organization catering to furries, founded on October 13th, 2022 by Taylor/BumzyPeach.
+
+Since then, the club has grown a lot, totalling 215 members on Bullsconnect and 247 members on the Discord Server, as of this writing.
+
+#### Acknowledgements
+
+This website is made and maintained by Ray/Helicoprime, FLOOF's Historian for the 2026 term.
+
+This website is hosted on Github Pages, and utilizes the Jekyll template "Minimal Mistakes".
+
+Favicon, Logo, and Profile Picture by Vincent, FLOOF's Ad Manager for the 2026 term.
