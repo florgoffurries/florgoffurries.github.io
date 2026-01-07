@@ -63,7 +63,7 @@ author:
   bio    : "Welcome to the official website/newsletter for the Florida Organization of Furries (FLOOF), a student organization at USF!"
   links:
     - label: "Website (You are here)"
-      icon: "fas fa-fw fa-link"
+      icon: "fa-solid fa-link"
       url: "https://florgoffurries.github.io/"
     - label: "Bullsconnect"
       icon: "fa-solid fa-cow"
@@ -78,12 +78,12 @@ author:
 
 footer:
   links:
-    - label: "Linktree"
-      icon: "fa-brands fa-linktree"
-      url: "https://linktr.ee/usffloof"
     - label: "Bullsconnect"
       icon: "fa-solid fa-cow"
       url: "https://bullsconnect.usf.edu/floof/home/"
+    - label: "Linktree"
+      icon: "fa-brands fa-linktree"
+      url: "https://linktr.ee/usffloof"
     - label: "Discord"
       icon: "fa-brands fa-discord"
       url: "https://discord.gg/PEhzuQG5Yv"

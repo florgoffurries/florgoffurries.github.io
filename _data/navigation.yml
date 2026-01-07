@@ -1,7 +1,8 @@
 main:
-  - title: "Newsletter and Announcements"
-    url: /posts/
-  - title: "History"
-    url: /history/
+  - title: "Newsletter"
+    url: /tags/#newsletter
   - title: "About"
     url: /about/
+  - title: "History"
+    url: /history/
+
