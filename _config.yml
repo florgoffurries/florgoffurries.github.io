@@ -20,6 +20,7 @@ twitter_username: usffloof
 github_username: florgoffurries.github.io
 minimal_mistakes_skin: "flooftheme"
 search: true
+future: true
 
 favicon: /favicon.ico
 logo: "/assets/images/logo.png"
@@ -56,10 +57,11 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 author:
   name   : "Stoney D. Bull"
-  avatar : "/assets/images/bio-photo.png"
+  avatar : "/assets/images/stoney_pfp.png"
   bio    : "Welcome to the official website/newsletter for the Florida Organization of Furries (FLOOF), a student organization at USF!"
   links:
     - label: "Website (You are here)"
@@ -95,13 +97,15 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       read_time: false
       comments: false
       share: false
       related: false
       show_date: true
       toc: true
+      toc_sticky: true
+    
   # _pages
   - scope:
       path: "_pages"

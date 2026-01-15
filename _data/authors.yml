@@ -1,0 +1,14 @@
+# /_data/authors.yml
+
+helico:
+  name        : "HelicoPrime"
+  bio         : "FLOOF Historian 2026-2027, <br>#1 p*wbert hater!"
+  avatar      : "/assets/images/helico_pfp.png"
+  links:
+    - label: "Website (WIP)"
+      icon: "fas fa-fw fa-link"
+      url: "https://helicoprime.carrd.co/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:helicoprime@gmail.com"
+
