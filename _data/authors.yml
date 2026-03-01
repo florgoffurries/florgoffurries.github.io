@@ -2,7 +2,7 @@
 
 helico:
   name        : "HelicoPrime"
-  bio         : "FLOOF Historian 2026-2027, <br>#1 p*wbert hater!"
+  bio         : "FLOOF Historian 2026-2027 <br>"
   avatar      : "/assets/images/helico_pfp.png"
   links:
     - label: "Website (WIP)"
