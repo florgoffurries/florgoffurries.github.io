@@ -3,25 +3,29 @@ name: Build Jekyll site
 on:
   push:
     branches:
-      - main  # replace with your default branch if needed
+      - main   # change if your default branch is different
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
+      # Checkout your repository
       - uses: actions/checkout@v3
 
+      # Set up Ruby environment
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.3
 
+      # Install dependencies
       - name: Install dependencies
         run: |
           gem install bundler
           bundle install
 
+      # Build the site
       - name: Build Jekyll site
         run: bundle exec jekyll build
 
