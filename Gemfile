@@ -1,8 +1,7 @@
 source "https://rubygems.org"
 
 gem "tzinfo-data"
-gem "fiddle"
-gem "ostruct"
+gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 gem 'wdm', '>= 0.1.0'
 gem "minimal-mistakes-jekyll"
