@@ -6,6 +6,9 @@ gem "tzinfo-data"
 gem "fiddle"
 gem "ostruct"
 
+gem 'wdm', '>= 0.1.0'
+gem 'faraday-retry'
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-paginate"

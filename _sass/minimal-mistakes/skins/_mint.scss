@@ -1,20 +1,18 @@
 /* ==========================================================================
-   Flooftheme skin
+   Mint skin
    ========================================================================== */
 
 /* Colors */
 $background-color: #f3f6f6 !default;
 $text-color: #40514e !default;
 $muted-text-color: #40514e !default;
-$primary-color: #00ff00 !default;
+$primary-color: #11999e !default;
 $border-color: mix(#fff, #40514e, 75%) !default;
-$footer-background-color: #006747 !default;
-$link-color: #006747 !default;
-$masthead-link-color: #fff;
-$masthead-link-color-hover: #fff;
-$masthead-background-color: #006747;
+$footer-background-color: #30e3ca !default;
+$link-color: #11999e !default;
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: $text-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
-$navicon-background-color: #ffffff;
 
 .page__footer {
   color: #fff !important; // override
@@ -24,8 +22,3 @@ $navicon-background-color: #ffffff;
 .page__footer-follow .social-icons .svg-inline--fa {
   color: inherit;
 }
-
-
-
-
-
