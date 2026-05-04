@@ -1,4 +1,6 @@
 main:
+  - title: "Photo Gallery"
+    url: https://florgoffurries.github.io/gallery/
   - title: "Newsletter"
     url: /tags/#newsletter
   - title: "About"
