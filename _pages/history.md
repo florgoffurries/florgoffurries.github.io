@@ -39,18 +39,19 @@ This club was founded on October 13th, 2022 by our former President and Founder 
 Some old concepts of our FLOOF logo!
 {: .small .text-center}
 
-> I remember when we first started the club! We were a small dedicated group of mutual friends who were optimistic and excited to make a safe and fun furry space at USF. I remember when I used to be surprised that we were able to fill a room with twenty people, and now FLOOF has events that can host near triple that amount- with full fundraising! It's been a privilege to watch it grow and be a part of this community.
+> When I first attended USF in 2021, I entered with a desire to make friends and form community around my interests. Luckily, I stumbled upon the USF Discord Student Hub, on which I ended up creating a couple of active servers. At this time, there was no registered student organization for furries at USF. When Taylor transferred from her previous university to USF, she joined the now defunct USF Furs, a server I had moderated with two other people. Upon arrival, she had eagerly announced that she wanted to make “furry” at USF the real deal by creating a registered student organization. Because I had experience with server creation and moderation, I was welcomed aboard as one of the first people to enter the burgeoning RSO’s Discord server. Eventually, I would become its first vice president.
 {: .small} 
-<cite>— Alexandra (Former Ad Manager & Designer of Stoney)</cite>
-{: .small}
 
 
-> When I first came into USF 2021, I made a couple of servers on the USF Discord Student hub. Eventually, Taylor transferred over, and she proposed the idea of making a furry RSO at USF! As I had experience running a couple of servers already, Taylor, Parker and I banded together to organize FLOOF! Our first meet was at the Skypad in the MSC. We ended up meeting a bunch of people. One of the people there was Bit, who would go on to make TFC. Floof in its early days didn't get funding so we had to pay for pizza and cookies, and we were in that one kind of small room in the second floor of the MSC. <br><br> Nowadays, I know whenever I go to a floof event, it's always going to be a place that is welcoming and accepting and fun, you know, above all else. I just think it's such a cool thing that from just a group of people who wanted to make friends, things could become as big as FLOOF which is so inspiring.
+> Our first ever meeting was at the MSC Skypad, where a handful of us bonded over our shared interest in the fandom. One of the people there was Bit, who would go on to found the Tampa Furry Club, another notable organization in the area. In its early days, FLOOF meetings were modest all around; they were held in a small room on the second floor of the MSC, funded off the backs of its first ever e-board. Yet today, on the occasion I drop by USF as an alumnus, I am stunned by the sheer volume of like-minded people, ballroom-sized rooms, and campus backing, something I only dreamed we would have in the organization’s infancy. I am incredibly grateful to Taylor and so many others who were crucial to getting FLOOF off the ground and into the lives of so many people. I know FLOOF will always be a place that is welcoming of people from across our diverse and unique fandom, as well as a fun place to silence the stresses of college life. In retrospect, FLOOF’s story reminds me of the power of community. It’s amazing to me that what started out as a small group of friends would become a crucial part of so many people’s campus life, and I am honored to have been a part of it.
 {: .small} 
 <cite>— Stasi (Former Vice President)</cite>
 {: .small}
 
-Milestones: We broke 100 Bullsconnect members in 2024, 200 in 2025, and 300 in 2026.
+> I remember when we first started the club! We were a small dedicated group of mutual friends who were optimistic and excited to make a safe and fun furry space at USF. I remember when I used to be surprised that we were able to fill a room with twenty people, and now FLOOF has events that can host near triple that amount- with full fundraising! It's been a privilege to watch it grow and be a part of this community.
+{: .small} 
+<cite>— Alexandra (Former Ad Manager & Designer of Stoney)</cite>
+{: .small}
 
 ### Stoney History
 
